@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.TweetRap" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.TweetRap.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.TweetRap.ActionBar</item>
+    </style>
+
+    <style name="Widget.TweetRap.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#67BCDB</item>
+        <item name="background">#67BCDB</item>
+        <item name="android:titleTextStyle">@style/Widget.TweetRap.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/Widget.TweetRap.ActionBar.TitleTextStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_nd</item>
+    </style>
+
+    <style name="Widget.TweetRap.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textAppearance">@android:dimen/app_icon_size</item>
+        <item name="android:textSize">24dip</item>
+    </style>
+
+</resources>
